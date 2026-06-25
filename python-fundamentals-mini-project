@@ -1,0 +1,22 @@
+#project 1
+ip=int(input("how far would you like to travel in miles? : "))
+
+if(ip<5):
+    print("I suggest Bicycle to your destination")
+elif(ip<300):
+    print("I suggest MotorCycle to your destination")
+else:
+    print("I suggest Super-Car to your destination")
+
+#project 2
+cost=1.58
+
+day=cost*24
+week=day*7
+month=week*4
+days=918/cost
+
+print("how much does it cost to operate one server per day?: "+str(day))
+print("how much does it cost to operate one server per week?: "+str(week))
+print("how much does it cost to operate one server per month?: "+str(month))
+print("how many days can I operate a server with $918?: "+str(days))
